@@ -36,3 +36,39 @@
     transform: rotate(360deg);
   }
 }
+
+.terminal {
+  background-color: black;
+  color: limegreen;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 10px;
+  height: 400px; /* You can adjust this */
+  overflow-y: auto;
+}
+
+.terminal input {
+  background-color: black;
+  border: none;
+  color: limegreen;
+  width: 100%;
+  outline: none;
+}
+
+.terminal p {
+  margin: 0;
+}
+
+.terminal input {
+  /* ... existing styles ... */
+  flex-grow: 1;
+  margin-left: 5px;
+}
+
+.terminal .input-line {
+  display: flex;
+  align-items: center;
+}
+
+.terminal .prompt {
+  color: limegreen;
+}
